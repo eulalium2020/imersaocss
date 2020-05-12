@@ -1,13 +1,11 @@
 body {
-    background-image: url("");
-    background-color: rgb(168, 150, 115);
+    background-image: url("https://uploaddeimagens.com.br/images/002/644/770/original/cienciaDeDados.jpg?1589274928");
     background-size: auto 100vh;
     height: 100vh;
-    
-     }
+    }
 
   a {
-    color: teal;
+    color: mediumblue;
     text-decoration: none;
    }
   
@@ -16,11 +14,11 @@ body {
   }
 
   .menu li {
-    list-style: none;
+   list-style: none;
   }
 
   .menu ul {
-    background-color: white;
+    background-color: khaki;
     display:flex;
     justify-content: space-around;
 
