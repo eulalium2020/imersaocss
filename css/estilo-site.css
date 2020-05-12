@@ -1,7 +1,6 @@
 body {
     background-image: url("https://uploaddeimagens.com.br/images/002/644/770/original/cienciaDeDados.jpg?1589274928");
-    background-size: auto 100vh;
-    height: 100vh;
+    background-size: 100vw;
     }
 
   a {
