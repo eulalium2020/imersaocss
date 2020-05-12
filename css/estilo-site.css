@@ -1,11 +1,40 @@
 body {
-    background-image: url("file:///C:/Users/a_eul/OneDrive/%C3%81rea%20de%20Trabalho/Imers%C3%A3o%20CSS_alura/imagens/Ci%C3%AAncia%20de%20Dados.jpg");
-  }
+    background-image: url("");
+    background-color: rgb(168, 150, 115);
+    background-size: auto 100vh;
+    height: 100vh;
     
+     }
+
+  a {
+    color: teal;
+    text-decoration: none;
+   }
+  
   a:hover {
     text-decoration: underline;
   }
-  
+
   .menu li {
     list-style: none;
+  }
+
+  .menu ul {
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+
+  }
+
+  .site-subtitle {
+    color: whitesmoke;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center; 
+  }
+
+  .site-title {
+    color: whitesmoke;
+    font-family: Arial;
+    text-align: center;
   }
