@@ -1,15 +1,71 @@
+/* Reset do CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: mediumblue;
+  text-decoration: none;
+ }
+
+a:hover {
+  text-decoration:underline;
+}
+
+.atividades {
+  color: whitesmoke;
+  text-align: center;
+}
+
 body {
-    background-image: url("https://uploaddeimagens.com.br/images/002/644/770/original/cienciaDeDados.jpg?1589274928");
+    background-image: url("../imagens/azulAbstrato.jpg");
     background-size: 100vw;
+    back
+    /* background-size: auto 100vh; */
+    height: 100vh;
+    font-size: 12px;
+    }
+/* Os estilos presentes neste arquivo serão válidos em telas com larguras a partir de 400px  */
+
+    @media(min-width: 400px) {
+      body {
+        font-size: 14px;
+      }
+      
     }
 
-  a {
-    color: mediumblue;
-    text-decoration: none;
-   }
-  
-  a:hover {
-    text-decoration: underline;
+    @media(min-width: 600px) {
+      body {
+        font-size: 18px;
+      }
+      
+    }
+
+  .menu {
+    color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+  }
+
+  header   {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu a {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: whitesmoke;
+    display: block; /*declaração necessária, pois na tag "a" o atributo padding não funciona. Essa ideia deve ser adotada sempre que precisarmos alterar as propriedades de um elemento html "inline" */
+    font-family: Arial;
+    padding: 10px 20px;
+    box-shadow: 10px 0px 10px rgb(17, 63, 109);
   }
 
   .menu li {
@@ -17,21 +73,36 @@ body {
   }
 
   .menu ul {
-    background-color: khaki;
+    background-color: steelblue;
     display:flex;
     justify-content: space-around;
-
   }
 
-  .site-subtitle {
+
+  .site-title,
+  .site-subtitle  {
     color: whitesmoke;
     font-family: Arial;
-    font-style: italic;
     text-align: center; 
   }
 
-  .site-title {
-    color: whitesmoke;
-    font-family: Arial;
-    text-align: center;
+  .site-subtitle {
+    font-style: italic;
   }
+
+  .site-title {
+    font-size: 4em;
+  }
+
+  .img-portfolio {
+    width: 150px;
+    height: 150px;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  
