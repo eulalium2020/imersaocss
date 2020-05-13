@@ -22,9 +22,8 @@ a:hover {
 
 body {
     background-image: url("../imagens/azulAbstrato.jpg");
-    background-size: 100vw;
-    back
-    /* background-size: auto 100vh; */
+    /* background-size: 100vw; */
+    background-size: auto 100vh;
     height: 100vh;
     font-size: 12px;
     }
